@@ -133,13 +133,14 @@ nav {
     border: 1px solid #ddd;
 }
 
-.work {
+.work, h5{
     position: relative;
     float: left;
     width: 274px;
     margin: 40px 10px 50px;
     overflow: auto;
   }
+  
   .work:nth-child(even) {
     margin-right: 10px;
   }
