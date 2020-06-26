@@ -179,9 +179,9 @@ img{
 }
 
 @media screen and (max-width: 768px) {
-  /* The body's bg color will be #333 */
+  
   body {
-    background-color: #333;
+    background-color: lightseagreen;
   }
 
   
@@ -190,20 +190,20 @@ img{
   }
 }
 @media screen and (max-width: 980px) {
-  /* The body's bg color will be #333 */
+  
   body {
-    background-color: #333;
+    background-color: lightcoral;
   }
 
   
   .wrapper {
-    width: 800px;
+    width: 700px;
   }
 }
 @media screen and (max-width: 640px) {
-  /* The body's bg color will be #333 */
+  
   body {
-    background-color: #333;
+    background-color: lightgreen;
   }
 
   
