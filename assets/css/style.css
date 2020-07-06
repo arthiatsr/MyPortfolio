@@ -35,14 +35,14 @@ h2,
 h3{
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
-  color: #4aaaa5;
+  color:white;
 }
 
 h1 {
     padding-bottom: 20px;
     font-size: 30px;
     line-height: 49px;
-    border-bottom: 3px solid #ddd;
+    /*border-bottom: 3px solid #ddd;*/
   }
 
 h2,
@@ -54,8 +54,13 @@ h3, h2 {
     padding-bottom: 20px;
     margin-bottom: 15px;
     line-height: 22px;
-    border-bottom: 2px solid #eee;
+    
+   /* border-bottom: 2px solid #eee;*/
   }
+h3{
+  color: #4aaaa5;
+}
+
 #masthead{
     position: fixed;
     z-index: 99;    
@@ -68,6 +73,7 @@ h3, h2 {
     /* background: #fff; */
     position: fixed;
     border-bottom: 10px solid #4aaaa5;
+    
 }
 
 #logo{
@@ -88,6 +94,7 @@ h3, h2 {
 nav {
     float: right;
     margin-top: 25px;
+    
 
 }
 
@@ -98,11 +105,17 @@ nav {
     line-height: 18px;
     color: rgb(153, 153, 153);
     text-decoration: none;
-    border-left: 1px solid #efefef;
+    /*border-left: 1px solid #efefef;*/
+   
  }
 
  nav a:first-child{
      border-left: 0 none;
+     
+ }
+ #contactid{
+   text-align: center;
+   color: white;
  }
 
  footer{
